@@ -210,6 +210,14 @@ img {
     letter-spacing: 0.03em;
 }
 
+/* .benefits {
+    flex-wrap: nowrap;
+}
+
+.benefit-card:not(:last-child) {
+    margin-right: 30px;
+} */
+
 .description-title {
     font-weight: 700;
     font-size: 36px;
@@ -218,9 +226,17 @@ img {
     letter-spacing: 0.03em;
 }
 
+/* .working-process:not(:last-child) {
+    margin-right: 30px;
+} */
+
 .worker-section {
     background-color: var(--section-color);
 }
+
+/* .flex-worker {
+    margin-right: 30px;
+} */
 
 .worker {
     font-weight: 700;
@@ -264,9 +280,10 @@ img {
     cursor: pointer;
 }
 
-/* .card-project {
-    display: flex;
-} */
+.flex-element {
+    margin-right: 30px;
+}
+
 
 .description-project {
     border-left: 1px var(--active-button-color);
