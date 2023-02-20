@@ -216,15 +216,17 @@ header .container {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    width: 270px;
 }
 
-/* .benefits {
-    flex-wrap: nowrap;
+.flex-benefit {
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .benefit-card:not(:last-child) {
     margin-right: 30px;
-} */
+}
 
 .description-title {
     padding-bottom: 50px;
@@ -342,6 +344,10 @@ header .container {
 
 .flex-element:nth-last-child(-n+3) {
     margin-bottom: 0;
+}
+
+.card-project {
+    border: 1px var(--border-color);
 }
 
 .description-project {
