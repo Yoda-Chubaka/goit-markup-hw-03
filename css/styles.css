@@ -48,15 +48,18 @@ img {
     outline: 2px teal;
 }
 
-.header {
+.flex-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-header {
     display: flex;
     align-items: center;
 }
 
 .header-item {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 .whole-logo {
@@ -79,8 +82,6 @@ img {
 
 .list-link {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     margin-top: 32px;
 }
 
@@ -115,8 +116,6 @@ img {
 
 .list-address {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     margin-top: 0;
 }
 
@@ -235,7 +234,7 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -244,7 +243,7 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
 }
 
