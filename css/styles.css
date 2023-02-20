@@ -189,6 +189,10 @@ header .container {
     cursor: pointer;
 }
 
+.benefit-section {
+    padding-top: 94px;
+}
+
 .hidden-title {
     display: none;
 }
@@ -218,11 +222,17 @@ header .container {
 } */
 
 .description-title {
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.about-our-work {
+    padding-top: 118px;
+    padding-bottom: 94px;
 }
 
 /* .working-process:not(:last-child) {
@@ -231,6 +241,8 @@ header .container {
 
 .worker-section {
     background-color: var(--section-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* .flex-worker {
@@ -238,6 +250,7 @@ header .container {
 } */
 
 .worker {
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -260,6 +273,21 @@ header .container {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.our-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-title {
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
 }
 
 /* END index.html */
@@ -315,6 +343,7 @@ header .container {
 
 .footer-address {
     background-color: var(--secondary-background-color);
+    padding-top: 60px;
 }
 
 .footer-link {
@@ -333,6 +362,14 @@ header .container {
 .footer-link:hover,
 .footer-link:focus {
     color: var(--link-color);
+}
+
+.footer-list {
+    margin-top: 20px;
+}
+
+.footer-contacts {
+    margin-top: 9px;
 }
 
 .join-link {
