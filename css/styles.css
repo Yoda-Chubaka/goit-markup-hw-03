@@ -224,7 +224,7 @@ header .container {
     margin-bottom: 30px;
 }
 
-.flex-benefit:not(:last-child) {
+.benefit-card:not(:last-child) {
     margin-right: 30px;
 }
 
