@@ -53,18 +53,14 @@ img {
     flex-wrap: wrap;
 }
 
-.page-header {
+header .container {
     display: flex;
     align-items: center;
 }
 
 .header-item {
     display: flex;
-}
-
-.whole-logo {
-    margin-right: 93px;
-    margin-top: 24px;
+    align-items: center;
 }
 
 .logo {
@@ -82,16 +78,18 @@ img {
 
 .list-link {
     display: flex;
-    margin-top: 32px;
+    margin-left: 93px;
 }
 
 .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--primary-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    
 }
 
 .list-item:not(:last-child) {
@@ -117,6 +115,7 @@ img {
 .list-address {
     display: flex;
     margin-top: 0;
+    margin-left: auto;
 }
 
 .link-address {
