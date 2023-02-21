@@ -296,6 +296,8 @@ header .container {
 }
 
 .card-worker {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -304,12 +306,26 @@ header .container {
 }
 
 .profession-worker {
+    margin-bottom: 16px;
     color: var(--link-address-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.box-media {
+    margin-left: 32px;
+    margin-bottom: 30px;
+}
+
+.social-list {
+    margin-right: 10px;
+}
+
+.box-clients {
+    justify-content: space-between;
 }
 
 .our-clients {
@@ -451,6 +467,7 @@ header .container {
 }
 
 .join-link {
+    margin-bottom: 20px;
     color: var(--primary-background-color);
     font-weight: 700;
     font-size: 14px;
