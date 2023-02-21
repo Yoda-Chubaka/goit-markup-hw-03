@@ -46,7 +46,11 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px teal;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .flex-items {
@@ -193,10 +197,6 @@ header .container {
     cursor: pointer;
 }
 
-.benefit-section {
-    padding-top: 94px;
-}
-
 .hidden-title {
     display: none;
 }
@@ -230,6 +230,10 @@ header .container {
     margin-right: 30px;
 }
 
+.our-work {
+    margin-top: -90px;
+}
+
 .work {
     flex-basis: calc((100% - 3 * 30) / 3);
     margin-right: 30px;
@@ -254,15 +258,8 @@ header .container {
     letter-spacing: 0.03em;
 }
 
-.about-our-work {
-    padding-top: 118px;
-    padding-bottom: 94px;
-}
-
 .worker-section {
     background-color: var(--section-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .worker {
@@ -307,11 +304,6 @@ header .container {
     justify-content: space-between;
 }
 
-.our-clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .clients-title {
     padding-bottom: 50px;
     font-weight: 700;
@@ -327,9 +319,9 @@ header .container {
 /* START portfolio.html */
 
 .list-button {
-    justify-content: center;
     padding-top: 94px;
     padding-bottom: 50px;
+    justify-content: center;
 }
 
 .filter-button {
@@ -356,7 +348,6 @@ header .container {
 .project-items {
     flex-wrap: wrap;
     padding-top: 50px;
-    padding-bottom: 94px;
     margin-left: -30px;
     margin-right: -30px;
 }
